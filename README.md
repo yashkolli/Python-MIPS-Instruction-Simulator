@@ -6,8 +6,12 @@ MIPS contains instructions in 3 formats
   3. **J-Format**
 <br />
 The MIPS.py is the main driver file. The instruction_table.py file contains all the instructions that the simulator supports. The register.py file contains the memory addresses of all the 32 registers.<br />
+<br/>
 The simulator.py is the main backbone of this simulator. This file contains all functions defined for parsing several instructions.<br />
 To run the simulator just run<br />
+<br/>
 python MIPS.py<br/>
- When prompted to enter the path for the file containing the assembly language program, enter the path and wait for the simulator to ask you for checking the register values after your program is executed.<br />
+<br/>
+When prompted to enter the path for the file containing the assembly language program, enter the path and wait for the simulator to ask you for checking the register values after your program is executed.<br />
+<br/>
 The main advanatge of MIPS is, it executes most of the instructions only with the help of the 32 registers. This simulator is made to care of most of the instructions which only need registers to work!
