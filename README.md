@@ -14,4 +14,4 @@ python MIPS.py<br/>
 <br/>
 When prompted to enter the path for the file containing the assembly language program, enter the path and wait for the simulator to ask you for checking the register values after your program is executed.<br />
 <br/>
-The main advanatge of MIPS is, it executes most of the instructions only with the help of the 32 registers. This simulator is made to care of most of the instructions which only need registers to work!
+The main advanatge of MIPS is, it executes most of the instructions only with the help of the 32 registers. This simulator is made to take care of most of the instructions which only need registers to work!
